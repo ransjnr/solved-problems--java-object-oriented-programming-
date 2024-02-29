@@ -1,4 +1,5 @@
 public abstract class Mammals{
+    public String name;
     public void sleep(){
         System.out.println("All mammals sleep");
     }
@@ -9,7 +10,7 @@ public abstract class Mammals{
 }
 
 class cat extends Mammals{
-
+ 
     @Override
     public void eat() {
         // TODO Auto-generated method stub
@@ -24,8 +25,9 @@ class cat extends Mammals{
         System.out.println("Cats sleep almost all day");
     }
 
-    public void petName(){
-
+    public void petName(String name){
+        this.name = name;
+        System.out.println("pet name is "+ name);
     }
     
 }
@@ -43,7 +45,8 @@ class Whale extends Mammals{
         // TODO Auto-generate
         System.out.println("Whales sleep 1hr");
     }
-    public void petName(){
-
+    public void petName(String name){
+        this.name = name;
+        System.out.println("pet name is "+ name);
     }
 }

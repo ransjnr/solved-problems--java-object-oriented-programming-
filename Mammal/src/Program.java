@@ -6,6 +6,8 @@ public class Program {
 
         Molly.sleep();
         Molly.eat();
+        Molly.petName("Dog");
+        
 
     }
 }
