@@ -1,0 +1,4 @@
+{
+    "CodeGPT.apiKey": "Anthropic",
+    "java.debug.settings.onBuildFailureProceed": true
+}
